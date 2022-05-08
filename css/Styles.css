@@ -2,14 +2,14 @@
 
 html {
   font-size: 100%;
-  line-height: 1.5rem;
+  line-height: 1.5rem; /* Our line height is 1.5 of the font size */
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 auto; /* Top and right = 0, left and right = auto */
   padding: 0;
   min-height: 100%;
   max-width: 100%;
@@ -21,12 +21,12 @@ p {
 }
 
 *,
-*::before,
+*::before, /* Everything else */
 *::after {
   box-sizing: inherit;
 }
 
-img,
+img, /* Scalable images */
 video {
   width: 100%;
   height: auto;
