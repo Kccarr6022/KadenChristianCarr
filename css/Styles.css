@@ -32,3 +32,45 @@ video {
   height: auto;
   display: block;
 }
+
+/* Hero styles */
+
+.hero-box {
+  display: grid;
+  grid-template-columns: 1fr; /* One column screen sized */
+  grid-template-rows: 1fr; /* One row screen sized */
+  grid-gap: 0px;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-image-box {
+  height: 100vh; /* Based on how big the window is */
+  width: 100%;
+  display: grid;
+  grid-column: 1 /-1; /* Css grid -> start at top go to bottom */
+  grid-row: 1 / -1;
+}
+
+.hero-text-box {
+  grid-column: 1 /-1; /* Css grid -> start at top go to bottom */
+  grid-row: 1 / -1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-about-me {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
