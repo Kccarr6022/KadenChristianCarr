@@ -19,3 +19,16 @@ p {
   color: black;
   font: times;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
